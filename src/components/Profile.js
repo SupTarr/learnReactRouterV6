@@ -10,8 +10,6 @@ export default function Profile() {
   const currentUser = useSelector(selectCurrentUser);
   const loggedIn = useSelector(selectIsLoggedIn);
 
-  // use loggedIn to return a Navigate
-
   return loggedIn ? (
     <main>
       <h1>{currentUser.username}</h1>

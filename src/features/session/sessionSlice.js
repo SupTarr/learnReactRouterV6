@@ -1,10 +1,10 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const sessionSlice = createSlice({
-  name: 'session',
+  name: "session",
   initialState: {
     user: {},
-    isLoggedIn: false
+    isLoggedIn: false,
   },
   reducers: {
     signUp: (state, action) => {
@@ -17,8 +17,8 @@ export const sessionSlice = createSlice({
     logOut: (state, action) => {
       state.user = {};
       state.isLoggedIn = false;
-    }
-  }
+    },
+  },
 });
 
 export const selectCurrentUser = (state) => state.session.user;

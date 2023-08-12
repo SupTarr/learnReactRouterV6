@@ -1,12 +1,12 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { AUTHORS } from '../../app/data';
+import { createSlice } from "@reduxjs/toolkit";
+import { AUTHORS } from "../../app/data";
 
 export const authorsSlice = createSlice({
-  name: 'authors',
+  name: "authors",
   initialState: {
     authors: AUTHORS,
   },
-  reducers: {}
+  reducers: {},
 });
 
 export const selectAuthors = (state) => state.authors.authors;

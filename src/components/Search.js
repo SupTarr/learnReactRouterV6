@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { useNavigate, createSearchParams } from 'react-router-dom';
+import React, { useRef } from "react";
+import { useNavigate, createSearchParams } from "react-router-dom";
 
 const Search = () => {
   const searchInputRef = useRef();
@@ -9,14 +9,14 @@ const Search = () => {
     e.preventDefault();
 
     const query = {
-      title: searchInputRef.current.value
-    }
+      title: searchInputRef.current.value,
+    };
     const queryString = createSearchParams(query);
 
     navigate({
-      pathname: '/articles',
-      search: `?${queryString}`
-    })
+      pathname: "/articles",
+      search: `?${queryString}`,
+    });
   };
 
   return (
