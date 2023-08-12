@@ -33,16 +33,12 @@ const router = createBrowserRouter(
       </Route>
       <Route path="articles/:title" element={<Article />} />
       <Route path="authors/:name" element={<Author />} />
-    </Route>,
-  ),
+    </Route>
+  )
 );
 
 function App() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
