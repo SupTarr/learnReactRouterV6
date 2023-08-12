@@ -5,11 +5,12 @@ import {
   filterArticles,
 } from "../features/articles/articlesSlice";
 import Search from "./Search";
-import { useParams, Link } from "react-router-dom";
+import { useSearchParams, Link } from "react-router-dom";
 
 export default function Articles() {
   const articles = useSelector(selectArticles);
-  const { title } = useParams();
+  const [searchParams] = useSearchParams();
+  const title = searchParams.get("title");
 
   const filteredArticles = title
     ? filterArticles(title, articles)
