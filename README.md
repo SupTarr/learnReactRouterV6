@@ -1,12 +1,28 @@
 # Learn React Router v6
 
+## About The Project
+
 This project is part of `Learn React Router v6` on `Codecademy.` and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+## Technologies
+
+This project was created with:
+
+- CSS
+- React Router
+- ReactJS
+
+## Installation
+
+Clone the project
+
+```sh
+git clone https://github.com/SupTarr/learnReactRouterV6
+```
 
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
