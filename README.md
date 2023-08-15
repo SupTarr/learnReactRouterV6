@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project is part of `Learn React Router v6` on `Codecademy.` and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project is part of `Learn React Router v6` on `Codecademy`. and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Technologies
 
