@@ -17,7 +17,7 @@ This project was created with:
 Clone the project
 
 ```sh
-git clone https://github.com/SupTarr/learnReactRouterV6
+git clone https://github.com/SupTarr/learnReactRouterV6.git
 ```
 
 In the project directory, you can run:
